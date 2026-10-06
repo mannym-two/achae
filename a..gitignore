@@ -1,0 +1,12 @@
+# Credenciais do banco (nunca subir senhas)
+config/database.php
+
+# Fotos enviadas pelos usuários
+uploads/*
+!uploads/.gitkeep
+
+# Arquivos do sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
